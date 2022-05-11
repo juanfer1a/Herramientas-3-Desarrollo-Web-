@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herramientas 3 "Practica 4" pagina principal</title>
+    <meta
+      name="descripcion"
+      content="Pagina web que evidencia solucion a taller para la asignatura de herramientas 3, de la carrera Ingenieria de software Institucion universitaria Pascual Bravo"
+    />
+    <link rel="stylesheet" href="css/style2.css" />
+  </head>
+
+  <body>
+    <div id="Encabezado">
+      <div>
+        <a href="/index.html"><p class="titulo">Inicio</p></a>
+      </div>
+      <div>
+        <a href="/Tablas.html"><p class="titulo">Tablas</p></a>
+      </div>
+      <div>
+        <a href="/Video.html"><p class="titulo">Video</p></a>
+      </div>
+      <div>
+        <a href="/Formulario.html"><p class="titulo">Formulario</p></a>
+      </div>
+    </div>
+    <div class="img_principal">
+      <img src="img/imagen1.png" alt="Desarrollo web" width="100%" />
+    </div>   
+      <div class="Formulario">
+       <form>
+           <div>
+               <label for="nombre">Nombre</label>
+               <input id="nombre" name="nombre">
+           </div>
+           <div>
+               <label for="apellido">Apellido</label>
+               <input id="apellido" name="apellido">
+           </div>
+           <div>
+             <label for="fecha">Fecha de nacimiento</label>
+             <input type="date" id="fecha" name="fecha">
+           </div>       
+           <div>
+            <label for="profesion">Profesion</label>
+             <input id="profesion" name="profesion">
+            </div>
+            <div>
+              <label for="hijos">Numero de hijos</label>
+              <input id="hijos" type="number" name="hijos"> 
+            </div>
+            <div>
+              <label for="telefono">Telefono</label>
+              <input id="telefono" type="tel" name="telefono">
+            </div>
+           <div>
+             <label for="email">Email</label>
+             <input id="email" type="email" name="email">
+           </div>          
+           <button id="btn_enviar">Enviar</button>
+        </form>
+          
+        </div>
+    </div>
+    <div class="pie">
+      <footer>
+        <p>Realizado por Juan Quiceno</p>
+        <p>Envigado - Antioquia</p>
+        <p>2022</p>
+      </footer>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
