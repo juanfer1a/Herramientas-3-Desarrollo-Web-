@@ -15,7 +15,7 @@
   <body>
     <div id="Encabezado">
       <div>
-        <a href="/index.html"><p class="titulo">Inicio</p></a>
+        <a href="index.html"><p class="titulo">Inicio</p></a>
       </div>
       <div>
         <a href="tablas.html"><p class="titulo">Tablas</p></a>
